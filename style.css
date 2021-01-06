@@ -1,0 +1,151 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.topnav{
+    overflow: hidden;
+    background-color: white;
+    float: right;
+}
+.topnav a{
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.orange-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: -1px;
+    color: white;
+    font-weight: 350;
+}
+.experiences{
+    margin-top: 100px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 10px 10px 40px 0px gray;
+    border-radius: 10px;
+    height:300px;
+    width:1345px;
+    
+}
+
+}
+#power{
+    margin-right: 200px;
+}
+#creative{
+
+}
+#rock{
+
+}
+.single-experience{
+    box-shadow: 10px 10px 40px 0px gray;
+    border-radius: 10px;
+    height:300px;
+    width:263px;
+    padding-left: 13px;
+    padding-right: 15px;
+    padding-top: 15px;
+    margin-right: 90px;
+
+}
+section{
+    height: 400px;
+    padding-bottom: 400px;
+    padding-top: 50px;
+}
+.chat{
+
+    background-image: url("images/New\ Project\ \(6\).png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 150px;
+    margin-bottom: -600px;
+}
+
+.heading{
+    color:white
+    ;
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top:17%;
+    width: 40%;
+    text-align: center;
+    display: inline;
+    
+    
+}
+.left{
+    float: right;
+    padding-bottom: 250px;
+    margin-right: 400px;
+    margin-left: -300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.right{
+    float:right;
+    padding-bottom: 250px;
+}
+.link-btun{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
+    font-weight: 350;
+}
+.icon{
+    display: flex;
+    margin-left: 45%;
+    padding-right: 10%;
+    margin-right: 10px;
+}
+.icon-1{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.icon-2{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.icon-3{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.footer{
+   height: 50px;
+   margin-bottom: -400px;
+}
