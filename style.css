@@ -5,16 +5,23 @@ body{
 }
 .topnav{
     overflow: hidden;
-    background-color: white;
-    float: right;
+    float: left;
+    position: fixed;
+    top: 10px;
+    left: 980px;
+    border-radius:5px ;
 }
 .topnav a{
-    float: left;
-    color: #000;
+    float: right;
+    color: cyan;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-weight: 600;
+}
+.topnav a:hover{
+    color: yellow;
 }
 h1{
     font-size: 50px;
@@ -38,21 +45,21 @@ h2{
     text-decoration: none;
     background-image: linear-gradient(45deg,lightSalmon,tomato);
     padding: 10px 20px;
-    border-radius: -1px;
+    border-radius: 5px;
     color: white;
     font-weight: 350;
 }
 .experiences{
     margin-top: 100px;
-    background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 10px 10px 40px 0px gray;
     border-radius: 10px;
     height:300px;
     width:1345px;
-    
+    margin-left:4px ; 
 }
+
 
 }
 #power{
@@ -81,7 +88,6 @@ section{
     padding-top: 50px;
 }
 .chat{
-
     background-image: url("images/New\ Project\ \(6\).png");
     background-repeat: no-repeat;
     display: flex;
@@ -90,17 +96,15 @@ section{
     margin-left: 250px;
     margin-top: 150px;
     margin-bottom: -600px;
+    height:380px;
 }
 
 .heading{
-    color:white
-    ;
+    color:white;
     margin-left: 100px;
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    top:17%;
-    width: 40%;
     text-align: center;
     display: inline;
     
@@ -119,14 +123,7 @@ section{
     float:right;
     padding-bottom: 250px;
 }
-.link-btun{
-    text-decoration: none;
-    background-image: linear-gradient(45deg,lightSalmon,tomato);
-    padding: 10px 20px;
-    border-radius: 3px;
-    color: white;
-    font-weight: 350;
-}
+
 .icon{
     display: flex;
     margin-left: 45%;
@@ -146,6 +143,7 @@ section{
     margin-right: 5px;
 }
 .footer{
-   height: 50px;
-   margin-bottom: -400px;
+   height: 30px;
+
 }
+
