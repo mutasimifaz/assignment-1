@@ -52,12 +52,12 @@ h2{
 .experiences{
     margin-top: 100px;
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
     box-shadow: 10px 10px 40px 0px gray;
     border-radius: 10px;
     height:300px;
     width:1345px;
-    margin-left:4px ; 
+    justify-content: center;
 }
 
 
@@ -79,7 +79,8 @@ h2{
     padding-left: 13px;
     padding-right: 15px;
     padding-top: 15px;
-    margin-right: 90px;
+    /* margin-right: 90px; */
+    justify-content: center;
 
 }
 section{
